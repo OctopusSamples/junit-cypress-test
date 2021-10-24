@@ -1,7 +1,6 @@
 {
   "reporter": "json",
   "reporterOptions": {
-    "mochaFile": "cypress/results/results.json",
-    "toConsole": true
+    "output": "cypress/results/results.json"
   }
 }
