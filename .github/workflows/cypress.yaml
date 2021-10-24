@@ -15,12 +15,14 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          config-file: cypress-mocha.json
 
       - name: Report
         uses: dorny/test-reporter@v1
         if: always()
         with:
-          name: Maven Tests
-          path: cypress/results/results.xml
-          reporter: java-junit
+          name: Cypress Tests
+          path: cypress/results/results.json
+          reporter: mocha-json
           fail-on-error: true
