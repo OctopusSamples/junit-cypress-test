@@ -4,5 +4,8 @@
   "description": "A simple cypress test",
   "dependencies": {
     "cypress": "8.6.0"
+  },
+  "devDependencies": {
+    "newman": "^5.3.0"
   }
 }
