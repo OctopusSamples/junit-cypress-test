@@ -2,7 +2,7 @@
   "name": "cypress-test",
   "version": "0.0.1",
   "description": "A simple cypress test",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "8.6.0"
   },
   "devDependencies": {
