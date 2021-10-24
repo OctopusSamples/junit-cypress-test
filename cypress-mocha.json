@@ -1,6 +1,7 @@
 {
   "reporter": "json",
   "reporterOptions": {
-    "output": "cypress/results/results.json"
+    "output": "results.json",
+    "toConsole": true
   }
 }
