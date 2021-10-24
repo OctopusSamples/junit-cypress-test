@@ -1,9 +1,7 @@
 {
-  "reporter": "mochawesome",
+  "reporter": "json",
   "reporterOptions": {
-    "reportDir": "cypress/results",
-    "overwrite": false,
-    "html": false,
-    "json": true
+    "output": "cypress/results/results.json",
+    "toConsole": true
   }
 }
