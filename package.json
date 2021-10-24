@@ -4,5 +4,8 @@
   "description": "A simple cypress test",
   "devDependencies": {
     "cypress": "8.6.0"
+  },
+  "dependencies": {
+    "mochawesome": "^6.3.1"
   }
 }
