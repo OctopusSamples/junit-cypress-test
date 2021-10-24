@@ -22,6 +22,7 @@ jobs:
 
       - run: ls -la
       - run: ls -la cypress
+      - run: ls -la cypress/results
 
       - name: Report
         uses: dorny/test-reporter@v1
