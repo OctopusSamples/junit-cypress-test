@@ -18,8 +18,7 @@ jobs:
         with:
           config-file: cypress-mocha.json
 
-      - run: ls cypress/results
-      - run: cat cypress/results/results.json
+      - run: ls -la
 
       - name: Report
         uses: dorny/test-reporter@v1
