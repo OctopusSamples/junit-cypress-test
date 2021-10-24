@@ -18,6 +18,8 @@ jobs:
         with:
           config-file: cypress-mocha.json
 
+      - run: cypress/results
+
       - name: Report
         uses: dorny/test-reporter@v1
         if: always()
