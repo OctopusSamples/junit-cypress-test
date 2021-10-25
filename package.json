@@ -4,6 +4,6 @@
   "description": "A simple cypress test",
   "devDependencies": {
     "cypress": "8.6.0",
-    "mocha-json-output-reporter": "^2.0.1"
+    "mocha": "^9.1.3"
   }
 }
