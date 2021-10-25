@@ -25,6 +25,6 @@ jobs:
         if: always()
         with:
           name: Cypress Tests
-          path: cypress/results/mochawesome.json
+          path: cypress/results/report.json
           reporter: mocha-json
           fail-on-error: true
