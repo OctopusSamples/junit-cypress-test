@@ -1,6 +1,8 @@
 {
   "reporter": "json",
   "reporterOptions": {
-    "output": "report.json"
+    "reporterOption": {
+      "output": "report.json"
+    }
   }
 }
