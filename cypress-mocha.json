@@ -1,5 +1,5 @@
 {
-  "reporter": "json",
+  "reporter": "mocha-json-output-reporter",
   "reporterOptions": {
       "output": "report.json"
   }
