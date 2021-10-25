@@ -6,6 +6,7 @@
     "cypress": "8.6.0"
   },
   "dependencies": {
+    "mocha-json-output-reporter": "^2.0.1",
     "mochawesome": "^6.3.1"
   }
 }
