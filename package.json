@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "A simple cypress test",
   "devDependencies": {
-    "cypress": "8.6.0",
-    "mocha": "^9.1.3"
+    "cypress": "8.6.0"
   }
 }
