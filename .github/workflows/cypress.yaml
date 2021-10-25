@@ -16,11 +16,17 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
 
+      - name: Save video
+        uses: actions/upload-artifact@v2
+        with:
+          name: sample_spec.js.mp4
+          path: cypress/videos/sample_spec.js.mp4
+
       - name: Report
         uses: dorny/test-reporter@v1
         if: always()
         with:
-          name: Cypress Tests
+          name: Maven Tests
           path: cypress/results/results.xml
           reporter: java-junit
           fail-on-error: true
