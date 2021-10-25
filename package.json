@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "description": "A simple cypress test",
   "devDependencies": {
-    "cypress": "8.6.0"
-  },
-  "dependencies": {
-    "mocha-json-output-reporter": "^2.0.1",
-    "mochawesome": "^6.3.1"
+    "cypress": "8.6.0",
+    "mocha-json-output-reporter": "^2.0.1"
   }
 }

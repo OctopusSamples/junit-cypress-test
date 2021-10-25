@@ -1,6 +1,6 @@
 {
   "reporter": "mocha-json-output-reporter",
   "reporterOptions": {
-      "output": "report.json"
+      "output": "cypress/results/report.json"
   }
 }
