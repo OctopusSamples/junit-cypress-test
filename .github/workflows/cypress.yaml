@@ -21,6 +21,6 @@ jobs:
         if: always()
         with:
           name: Cypress Tests
-          path: cypress/results/results.xml
-          reporter: java-junit
+          path: results.json
+          reporter: mocha-json
           fail-on-error: true
